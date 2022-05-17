@@ -12,12 +12,12 @@ const NavBar = () => {
 
     <AppBar position="static">
       <Toolbar>
-        <img src={logo} className="rickLogo" />
+        <a href='https://www.adultswim.com/videos/rick-and-morty' target="_blank"><img src={logo} className="rickLogo" /></a>
         <h2 className='nombre'>Wubaluba</h2>
         <ul className='lista'>
-        <span><button>Inicio</button></span>
-        <span><button>Productos</button></span>
-        <span><button>Sobre Nosotros</button></span>
+        <span><a id='secciones'>Inicio</a></span>
+        <span><a id='secciones'>Productos</a></span>
+        <span><a id='secciones'>Sobre Nosotros</a></span>
         </ul>
         <Button color="inherit">Login</Button>
         

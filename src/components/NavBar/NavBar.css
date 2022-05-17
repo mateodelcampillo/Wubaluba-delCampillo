@@ -5,6 +5,7 @@
     color: red;
     margin: 10px;
 }
-.lista{
-    margin: 5px;
+#secciones{
+    margin: 70px;
+    cursor: pointer;
 }
