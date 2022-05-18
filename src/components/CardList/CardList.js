@@ -1,8 +1,9 @@
 
 import CardFunction from '../Productos/Card'
 import { Grid } from '@mui/material';
-const CardList = ()=>{
-    return(
+const CardList = ({title})=>{
+    return(<>
+        <h2>{title}</h2>
         <Grid container className='container'>
           <Grid item md={3}>
             <CardFunction title = {"Cool Rick"} price={5} image={"Cool-Rick.jpg"}/>
@@ -16,6 +17,7 @@ const CardList = ()=>{
           </Grid>
           
         </Grid>
+        </>
     )
 }
 export default CardList

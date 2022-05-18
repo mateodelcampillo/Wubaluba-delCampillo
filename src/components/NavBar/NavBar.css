@@ -1,11 +1,18 @@
-.rickLogo{
+.rickLogo {
     width: 100px;
 }
-.nombre{
+
+.nombre {
     color: red;
     margin: 10px;
 }
-#secciones{
+
+#secciones {
     margin: 70px;
     cursor: pointer;
+}
+
+.carritoPng {
+    width: 35px;
+  padding-left: 1350%;
 }

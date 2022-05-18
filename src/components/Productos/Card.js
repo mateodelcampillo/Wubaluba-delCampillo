@@ -11,7 +11,7 @@ const CardFunction = ({image, title, price}) => {
             <CardContent>
                 <div className="card-item">
                     <div>
-                        <img src={`./${image}`} />
+                        <img src={`../components/Productos/${image}`} />
                     </div>
                     <p>{title}</p>
                     <span>${price}</span>
