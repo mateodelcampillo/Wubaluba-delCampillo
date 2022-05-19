@@ -12,15 +12,15 @@ function App() {
     <div className="NavBar">
       <NavBar />
       <div className='general-container'>
-        <CardList title="Productos a escoger" />
+        <CardList title="NFT Rick!" />
       </div>
-      <SnackBar>
+      {/* <SnackBar>
         <p>Se agrego el producto 1</p>
-      </SnackBar>
+      </SnackBar> */}
 
-      <SnackBar>
+      {/* <SnackBar>
         <button>Hola</button>
-      </SnackBar>
+      </SnackBar> */}
     </div >
   )
 }

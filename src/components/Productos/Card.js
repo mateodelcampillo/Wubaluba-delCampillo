@@ -4,14 +4,14 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 
-const CardFunction = ({image, title, price}) => {
+const CardFunction = ({image, title, price, identify}) => {
   
     return (
         <Card sx={{ minWidth: 275 }}>
             <CardContent>
                 <div className="card-item">
                     <div>
-                        <img src={`../components/Productos/${image}`} />
+                        <img id={identify} src={`./${image}`} />
                     </div>
                     <p>{title}</p>
                     <span>${price}</span>
