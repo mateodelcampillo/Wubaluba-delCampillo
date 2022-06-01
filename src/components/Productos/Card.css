@@ -5,3 +5,8 @@ height: 507px;
 .card-item{
     margin: 10px;
 }
+.count-item{
+    display: flex;
+    align-items: center;
+   
+}
